@@ -25,13 +25,17 @@ The assignment had to be completed with meeting following requirements:
 ` virtualenv -p python3 venv` <br>
 ` cd venv` <br>
 `source bin/activate` <br>
+
 3. Change the directory using <br>
 `cd ..` <br>
 ` cd Pizza-ordering-app master`
+
 4. Now you need to install python packages to run the app <br>
 `pip3 install -r requiements.txt`
+
 5. Create superuser <br>
  `python manage.py createsuper`
+ 
 6. Run Django app <br>
 `python manage.py runserver`
 
